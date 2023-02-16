@@ -51,9 +51,37 @@ html, body {
   margin-left: 22px;
   height: 20vw;
   width: 300px;
-/*   background-color: red; */
 }
 
 .flyer-image{
   width: 100%;
 }
+
+.card-footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-footer button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-footer button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+
