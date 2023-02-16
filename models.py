@@ -1,6 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql.expression import func 
-from werkzeug.security import generate_password_hash
+#from werkzeug.security import generate_password_hash
 from app import app
 db = SQLAlchemy(app)
 
