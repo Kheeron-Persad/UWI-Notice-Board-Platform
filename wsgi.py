@@ -11,4 +11,5 @@ def initialize():
   Post1 = Post('1', 'Post1', 'Welcome')
   db.session.add(Post1)
   db.session.commit()
+  print(Post1)
   print('database intialized')
