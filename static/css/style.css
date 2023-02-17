@@ -226,10 +226,11 @@ h4 {
 }
 
 .card-footer {
-  background-color: #f2f2f2;
+/*   background-color: #f2f2f2; */
   padding: 10px;
   display: flex;
   justify-content: center;
+/*   width: 60%; */
 }
 
 .card-footer button {
@@ -275,22 +276,65 @@ h4 {
 
 .c-bot {
   position: absolute;
+  display: flex;
   bottom: 0;
   width: 70%;
-/*   background-color: blue; */
+  background-color: #f2f2f2;
   height: 20%;
 }
 
-.t-left{
-/*   width: 20%; */
-/*   background-color: purple; */
+.c-bot-left{
+/*   background-color: #f2f2f2; */
+  width: 25%;
 }
 
-.t-right{
-  width: 80%;
+.c-bot-left-right{
+/*   background-color: red; */
+  width: 10%;
+}
+
+/* .c-bot-left-right i.material-icons{
+  padding: 10px;
+} */
+
+.c-bot-right{
+/*   background-color: green; */
+  width: 20%;
+}
+
+.c-bot-mid{
+/*   background-color: purple; */
+  width: 33%;
+}
+
+.board-name{
+  text-align: center;
+  padding: 15px;
+}
+
+.users-count{
+  text-align: center;
+  padding: 15px;
+}
+
+.views {
+  text-align: center;
+  padding: 15px;
+}
+
+.c-bot-right-right{
+/*   background-color: red; */
+}
+.c-bot-right-right i.material-icons{
+  padding: 15px;
+}
+
+.user-icon{
 /*   background-color: yellow; */
 }
-
+.user-icon i.material-icons{
+  padding-top: 10px;
+} 
 
 
 
