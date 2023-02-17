@@ -120,6 +120,7 @@ main {
     width: 12%;
     background-color: white;
     overflow-y: hidden;
+    position: fixed;
   } 
 
 .nav {
@@ -159,6 +160,10 @@ hr {
 h4 {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.container{
+  margin-left: 12vw;
 }
 
 .card{
